@@ -43,7 +43,7 @@ plt.show()
 
 # Pie Chart of box office collection by genre
 
-plt.figure(figsize=(8, 8))
+plt.figure(figsize=(8,5))
 plt.pie(box_office_by_genre, labels=box_office_by_genre.index, autopct='%1.1f%%',startangle=140)
 plt.title('Box office collection by genre')
 plt.show()
